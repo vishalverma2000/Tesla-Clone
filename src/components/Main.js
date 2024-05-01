@@ -1,8 +1,9 @@
 import React from "react";
-
-const Modal = () => {
+import Navbar from "./Navbar";
+const Main = () => {
   return (
-    <div>
+    <div className="bg-[url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png')] lg:bg-[url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png')] h-screen bg-cover bg-center">
+      <Navbar />
       <div className="absolute inset-x-0 top-[17%] text-center">
         <h1 className="text-4xl font-bold mb-1">Model Y</h1>
         <h3 className="text-lg font-semibold">From $29,490</h3>
@@ -34,4 +35,4 @@ const Modal = () => {
   );
 };
 
-export default Modal;
+export default Main;
